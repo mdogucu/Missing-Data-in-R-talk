@@ -6,7 +6,7 @@ comp<-read.csv("complete.csv")
 miss<-read.csv("missing.csv")
 
 ## Missing Data Diagnostics
-
+library(ggplot2)
 library(naniar)
 
 ggplot(data = miss,
