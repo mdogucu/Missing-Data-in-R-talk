@@ -21,7 +21,7 @@ library(BaylorEdPsych)
 library(mvnmle)
 LittleMCAR(miss)
 
-## True Parameters
+## Sample Statistics
 
 coef(lm(distance~age,data=comp))
 
